@@ -29,4 +29,12 @@ return require('packer').startup(function(use)
 
   -- vim-fugutive
   use('tpope/vim-fugitive')
+
+  -- nvim-tree 
+  use('nvim-tree/nvim-tree.lua')
+  use('nvim-tree/nvim-web-devicons')
+
+  -- nvim-lualine
+  use('nvim-lualine/lualine.nvim')
+  
 end)
