@@ -16,4 +16,5 @@ vim.wo.relativenumber = true
 vim.wo.number = true
 
 vim.keymap.set("n", "<leader>w", vim.cmd.w)
+vim.keymap.set("n", "<leader>q", vim.cmd.q)
 vim.keymap.set("n", "<leader>wq", vim.cmd.wq)
